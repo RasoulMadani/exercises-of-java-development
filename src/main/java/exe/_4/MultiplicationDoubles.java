@@ -1,5 +1,6 @@
 package exe._4;
 
+import java.text.MessageFormat;
 import java.util.Scanner;
 
 public class MultiplicationDoubles {
@@ -16,7 +17,7 @@ public class MultiplicationDoubles {
         System.out.println("What is your Number2?");
         double double3 = scanner.nextDouble();
 
-        System.out.println("multiplications : "  + double1 * double2 * double3);
+        System.out.println( MessageFormat.format("{0} * {1} * {2} = {3}",double1,double2,double3,(double1*double2*double3)));
 
 
         /*
