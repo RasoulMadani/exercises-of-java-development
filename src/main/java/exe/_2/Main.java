@@ -13,7 +13,7 @@ package exe._2;
 public class Main {
     public static void main(String[] args) {
         DividingDecimalNumbers divition = new DividingDecimalNumbers();
-        double divied =  divition.divid(2.2,2.3);
+        double divied =  divition.divid(2.7,2.3);
         System.out.println(divied);
     }
 }
