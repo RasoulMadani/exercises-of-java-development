@@ -49,9 +49,9 @@ public class Main {
                         totalArray[j] = iElement;
                     }
                 }
-
             }
         }
+
         System.out.println(Arrays.toString(totalArray));
     }
 }
