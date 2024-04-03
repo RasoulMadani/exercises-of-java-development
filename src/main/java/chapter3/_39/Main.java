@@ -35,7 +35,6 @@ public class Main {
                 totalArray[i] = array02[counter];
                 counter++;
             }
-
         }
         System.out.println(Arrays.toString(totalArray));
         int[] desArray = new int[totalArray.length];
